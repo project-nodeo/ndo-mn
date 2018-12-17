@@ -9,12 +9,13 @@ git clone https://github.com/project-nodeo/ndo-mn.git && cd ndo-mn && bash ndo-m
 ```
 
 3. Please follow all prompts closely and enter ```y``` if this is your first time installing NDO
-4. You will be provided with your IP address and private key at the end of the installation process
+4. You will be prompted to generate a private key in your wallet with instructions to do so
+5. You will be provided with your IP address and private key at the end of the installation process which will be used in the next step
 
 # Wallet Portion and Funds
 1. Go to your debug console in the Nodeo wallet by going to Tools -> Debug Console
 2. Generate a new address with ```getaccountaddress mn1```
-3. Send exactly #### NDO to this newly generated address
+3. Send exactly 1,000 NDO to this newly generated address
 4. After the transaction has confirmed, find your tx output and ID from the Debug Console with ```masternode outputs```
 5. Use your IP address given with your private key, tx ID and tx output number for the masternode config
 6. Go to Tools -> Open Masternode Configuration File
